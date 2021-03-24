@@ -1,6 +1,6 @@
 //Java Program to illustrate the use of declaration, instantiation   
 //and initialization of Java array in a single line  
-class Testarray1{  
+class declareinitialize{  
 public static void main(String args[]){  
   int a[]={33,3,4,5};//declaration, instantiation and initialization  
   //printing array  
