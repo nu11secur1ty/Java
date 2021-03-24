@@ -2,12 +2,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class pinger {
+public class firstline {
 public static void main(String[] args) {
        	Process p;
 	try {
-		//new String[] {"bin/bash","-c","echo password| sudo -S ls"},
-		String[] cmd = {"bin/bash","-c","echo password| sudo -S ls"};
+	      //String[] cmd = {"sh","pinger.sh"},
+		String[] cmd = {"/bin/bash","-c","ping -c 4 google.com"};
    		p = Runtime.getRuntime().exec(cmd); 
 		p.waitFor(); 
 		BufferedReader reader=new BufferedReader(new InputStreamReader(p.getInputStream())); 
