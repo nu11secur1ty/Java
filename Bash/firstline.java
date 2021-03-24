@@ -6,6 +6,7 @@ public class pinger {
 public static void main(String[] args) {
        	Process p;
 	try {
+		//new String[] {"bin/bash","-c","echo password| sudo -S ls"},
 		String[] cmd = {"bin/bash","-c","echo password| sudo -S ls"};
    		p = Runtime.getRuntime().exec(cmd); 
 		p.waitFor(); 
@@ -28,5 +29,3 @@ public static void main(String[] args) {
    	}
   }
 }
-
-//new String[] {"bin/bash","-c","echo password| sudo -S ls"},
