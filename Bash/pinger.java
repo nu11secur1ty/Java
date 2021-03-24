@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class ProcessBuilderExample1 {
+public class pinger {
 
     public static void main(String[] args) {
 
